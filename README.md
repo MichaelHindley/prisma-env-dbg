@@ -1,7 +1,7 @@
 ## Prisma funky env loading
 
 `npm i`  
-`npx run prisma generate`  (this loads correct schema and .env files)
+`npx run prisma generate`  (this loads correct schema and .env files)  
 `ts-node run.ts`  
 
 Expected: Some sort of connection error message due to the DATABASE_URL in root-level .env being invalid.  
